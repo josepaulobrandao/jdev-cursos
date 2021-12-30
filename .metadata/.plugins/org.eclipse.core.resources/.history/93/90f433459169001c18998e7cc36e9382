@@ -85,7 +85,7 @@ public class PrimeiraClasse {
 		alunos.add(aluno1);
 	}
 		
-	for(Aluno aluno : alunos) {/*Separei em listas*/
+	for(Aluno aluno : alunosReprovados) {/*Separei em listas*/
 		if 		(aluno.getAprovado2().equalsIgnoreCase(StatusAluno.APROVADO)) {
 				alunosApovados.add(aluno);
 		}else if (aluno.getAprovado2().equalsIgnoreCase(StatusAluno.RECUPERACAO)) {
